@@ -5,8 +5,8 @@
 
 public class Main {
     public static void main(String[] args) {
-        BankAccount acc1 = new BankAccount("Иван");
-        BankAccount acc2 = new BankAccount("Ольга");
+        BankAccount acc1 = new BankAccount("Александр");
+        BankAccount acc2 = new BankAccount("Камилла");
         acc1.deposit(1000);
         System.out.println(acc1.getBalance());
         acc1.withdraw(200);
